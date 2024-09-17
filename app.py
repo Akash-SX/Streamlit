@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-
 st.set_page_config(page_title="Support tickets", page_icon="🎫")
 st.title("🎫 AUTOSherpa Support Ticket System")
 st.write(
@@ -15,6 +14,19 @@ st.write(
     """
 )
 
+# Define issue descriptions
+issue_descriptions = [
+    "Login not working",
+    "Feature request for export functionality",
+    "UI alignment issue",
+    "Performance slow on dashboard",
+    "Bug in user registration",
+    "Request for API integration",
+    "Requirement for multi-language support",
+    "Error in payment gateway",
+    "Request for additional reports",
+    "Bug in mobile app"
+]
 
 issue_types = ["Bug", "Request", "Requirement"]
 
