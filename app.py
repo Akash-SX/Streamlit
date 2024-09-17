@@ -17,11 +17,6 @@ st.write(
 
 
 issue_types = ["Bug", "Request", "Requirement"]
-issue_descriptions = [
-    "Issue with login", "Feature request for new functionality", "Requirement for performance improvement",
-    "Bug in the user interface", "Request for additional documentation", "Requirement for security enhancement",
-    "Bug in data processing", "Request for a new report", "Requirement for system integration",
-]
 
 if "df" not in st.session_state:
     np.random.seed(42)
